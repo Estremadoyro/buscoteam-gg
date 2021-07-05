@@ -1,0 +1,36 @@
+.home-container {
+  text-align: center;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.home-container > .combos {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  height: 50px;
+  width: 800px;
+}
+
+.home-container > .combos > .league-container {
+  display: flex;
+  width: 60%;
+  height: inherit;
+}
+.home-container > .combos > .region-container {
+  display: flex;
+  width: 40%;
+  height: 100%;
+}
+
+.home-container > .searchbar-container {
+  display: inline-flex;
+  justify-content: center;
+  /* border: 1px solid green; */
+  width: 800px;
+  height: 40px;
+}
